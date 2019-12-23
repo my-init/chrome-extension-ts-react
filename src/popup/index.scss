@@ -1,0 +1,8 @@
+@import '../common/styles';
+
+.Popup {
+  min-width: 200px;
+  min-height: 100px;
+  display: flex;
+  border: 1px solid $mainColor;
+}

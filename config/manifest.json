@@ -1,0 +1,20 @@
+{
+  "name": "crx-startkit",
+  "version": "1.0",
+  "description": "chrome extension startkit",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "notifications"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon64.png"
+  },
+  "icons": {
+    "48": "images/icon64.png"
+  }
+}
